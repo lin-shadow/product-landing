@@ -1,0 +1,191 @@
+body {
+  background-color: oldlace;
+}
+
+#header {
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 13pt;
+  color: saddlebrown;
+}
+
+#div-header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 15fr;
+  background-color: #FFDAB9;
+  height: auto;
+  padding: 0.5%;
+}
+
+#item1 {
+  align-self: center;
+}
+#item2 {
+  align-self: center;
+  justify-self: left;
+}
+#item3 {
+  align-self: center;
+}
+#header-img {
+  width: 40px;
+  padding-left: 10px;
+}
+
+#nav-bar {
+  text-align: right;
+  padding-right: 0px;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.nav-link {
+  
+}
+
+.a {
+  font-family: Calibri;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 13pt;
+  color: saddlebrown;
+  
+}
+
+#h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-family: Georgia;
+  color: maroon;
+}
+
+#content {
+  padding: 0px;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 16pt;
+}
+
+#email-text {
+  text-align: center;
+  font-family: Calibri;
+  font-size: 13pt;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#email {
+  text-align: center;
+  font-family: Calibri;
+  font-size: 13pt;
+  width: 300px;
+  margin: auto;
+}
+
+form {
+  line-height: 2;
+}
+
+input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown)
+
+#submit {
+  text-align: center;
+}
+
+#button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+  font-family: Georgia;
+  font-size: 15pt;
+}
+
+.heart {
+  color: red;
+  text-align: right;
+}
+
+.text {
+  padding-right: 35%;
+}
+
+#coupons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1%;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Georgia;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.coupon {
+  border: 2px solid saddlebrown;
+  padding: 1%;
+  
+}
+
+h2 {
+  margin-top: 20%;
+  font-size: 2.8vw;
+  padding: 1%;
+  text-align: center;
+  font-family: Georgia;
+  color: maroon;
+}
+
+p {
+  padding: 0px;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 1.7vw;
+}
+
+button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 3vw;
+  font-family: Georgia;
+  margin: auto;
+  height: auto;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#footer {
+  padding-top: 40px;
+  font-family: Georgia;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.coupon-text {
+  height: 100px;
+}
